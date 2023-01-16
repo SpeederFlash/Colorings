@@ -207,7 +207,7 @@ void appendMaxColorings(std::vector<std::vector<int>> &returnVec, std::vector<in
     } else {
         size_t vecLen = returnVec[0].size();
         if (vec.size() > vecLen) {
-            std::cout << vec.size() << std::endl;
+            // std::cout << vec.size() << std::endl;
             returnVec.clear();
             returnVec.push_back(vec);
             return;
